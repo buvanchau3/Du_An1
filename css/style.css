@@ -1,79 +1,147 @@
-.view-nav{
-    margin: 0 10px;
-}
-nav li{
-   font-size: 14px; 
-   font-weight: 600;
-   color: #000;
-}
-footer p {
-    font-size: 14px; /* Tăng kích thước chữ */
-    font-weight: 500; /* Điều chỉnh độ đậm của chữ */
-    color: #333; /* Sử dụng màu đậm hơn */
-    text-align: left;
-
+/* General Styles */
+ul li a {
+    color: black;
 }
 
-footer h6 {
-    font-size: 14px; /* Tăng kích thước chữ của tiêu đề */
-    font-weight: 700; /* Làm đậm tiêu đề */
-    color: #111; /* Chọn màu đậm cho tiêu đề */
-    text-align: left;
-    text-transform: uppercase;
-
+.data-v-ed45279a {
+    margin-right: 5px;
 }
 
-footer p.text-msg {
-    text-align: left;
-    font-size: 14px; /* Tăng kích thước chữ của đoạn mô tả */
-    font-weight: 400; /* Làm đậm chữ hơn */
-    line-height: 1.6;
-    color: #555; /* Sử dụng màu đậm hơn */
-    margin: 0;
-    padding: 5px 0;
+.heading img {
+    margin-top: 20px;
+    height: 58px;
+    cursor: pointer;
 }
 
-.text-reset:hover{
-    color: rgb(255, 0, 0) !important;
-    text-decoration: none !important;
+.phone {
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container ul{
-    padding: 0;
-}
-.container ul li{
-    list-style: none;
-    padding: 8px 20px;
+/* Button Styles */
+button.btn-primary {
+    margin: 5px 10px;
     font-size: 16px;
-
-   
-}
-.container ul li:hover{
-    background-color: rgb(207, 206, 206);
 }
 
-.container ul a{
-    text-decoration: none;
-    color: #000;
-}
-.control .data-v-ed45279a{
-    padding-left: 5px;
-    padding-right: 20px;
-}
-.btn-primary{
+.btn-primary {
     width: 100%;
     background-color: #edf1f5;
     border-color: #cbd5e1;
     color: #a6b3c2;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
+
+/* Price Styles */
+.price {
+    font-size: 16px;
+}
+
+tbody .price {
+    font-size: 14px;
+}
+
+/* Card Link Styles */
+a.card-link-product {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.card-link-product:hover {
+    color: red;
+}
+
+/* Table Styles */
+tbody .text-title {
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+tbody .text-dsc {
+    width: 250px;
+    font-size: 12px;
+}
+
+/* Navigation Styles */
+.view-nav {
+    margin: 0 10px;
+}
+
+nav li {
+    font-size: 14px; 
+    font-weight: 600;
+    color: #000;
+}
+
+/* Footer Styles */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    font-size: 14px; 
+    font-weight: 500; 
+    color: #333; 
+    text-align: left;
+}
+
+footer h6 {
+    font-size: 14px; 
+    font-weight: 700; 
+    color: #111; 
+    text-align: left;
+    text-transform: uppercase;
+}
+
+footer p.text-msg {
+    text-align: left;
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 1.6;
+    color: #555; 
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Text Reset Styles */
+.text-reset:hover {
+    color: rgb(255, 0, 0) !important;
+    text-decoration: none !important;
+}
+
+/* Container Styles */
+.container ul {
+    padding: 0;
+}
+
+.container ul li {
+    list-style: none;
+    font-size: 16px;
+}
+
+.container ul li:hover {
+    background-color: rgb(207, 206, 206);
+}
+
+.container ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Control Styles */
+.control .data-v-ed45279a {
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+/* Show/Hide Text Styles */
 .smg-text {
-    display: none; /* Mặc định ẩn phần tử */
+    display: none; /* Default hidden */
 }
 
 .smg-text.action {
-    display: block; /* Hiển thị khi có lớp action */
+    display: block; /* Show when class 'action' is added */
 }

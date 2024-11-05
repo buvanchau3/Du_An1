@@ -5,7 +5,7 @@
     <title>Title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/D_A1/css/style.css">
+  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%; height: 80px; padding: 0 100px;">
         <div class="image-logo" style="margin-right: 30px;">
-            <img src="#" alt="logo">
+           <a href="../html/index.php"> <img src="#" alt="logo"></a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbarScroll">
@@ -66,12 +66,12 @@
                             </div>
                             <div class="col-sm-4">
                                 <ul class="list-unstyled">
-                                    <a href="#"> <img style="width: 100%;" src="/D_A1/image/do-man-a.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px" src="../image/đồ-nam-1.png"
                                             alt="anh-mau"></a>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <a href="#"> <img style="width: 100%; " src="/D_A1/image/do-nam-b.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px " src="../image/đồ-nam-2.png"
                                             alt="anh-mau"></a>
                                 </ul>
                             </div>
@@ -117,12 +117,12 @@
                             </div>
                             <div class="col-sm-4">
                                 <ul class="list-unstyled">
-                                    <a href="#"> <img style="width: 100%;" src="/D_A1/image/do-nu.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px" src="../image/đồ-nữ-1.png"
                                             alt="anh-mau"></a>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <a href="#"> <img style="width: 100%; " src="/D_A1/image/do-nu2.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px " src="../image/đồ-nữ-2.png"
                                             alt="anh-mau"></a>
                                 </ul>
                             </div>
@@ -169,12 +169,12 @@
                             </div>
                             <div class="col-sm-4">
                                 <ul class="list-unstyled">
-                                    <a href="#"> <img style="width: 100%;" src="/D_A1/image/be-gai1.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px" src="../image/bé-gai-1.png"
                                             alt="anh-mau"></a>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <a href="#"> <img style="width: 100%; " src="/D_A1/image/be-gai2.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px " src="../image/bé-gái-2.png"
                                             alt="anh-mau"></a>
                                 </ul>
                             </div>
@@ -185,7 +185,7 @@
                     <a class="nav-link view-nav dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         BÉ TRAI
-                    </a>
+                    </a> 
                     <div class="dropdown-menu p-3" style="width: 600px;">
                         <div class="row">
                             <div class="col-sm-4">
@@ -220,12 +220,12 @@
                             </div>
                             <div class="col-sm-4">
                                 <ul class="list-unstyled">
-                                    <a href="#"> <img style="width: 100%;" src="/D_A1/image/be-trai1.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px" src="../image/bé-trai-1.png"
                                             alt="anh-mau"></a>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <a href="#"> <img style="width: 100%;" src="/D_A1/image/be-trai2.webp"
+                                    <a href="#"> <img style="width: 100%; height: 200px" src="../image/bé-trai-2.png"
                                             alt="anh-mau"></a>
                                 </ul>
                             </div>
@@ -238,15 +238,15 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav text-center">
             <li class="nav-item" style="width: 100px; font-size: 15px;">
-                <a class="nav-link" href="#"><i class="bi bi-shop"></i> Cửa hàng</a>
+                <a class="nav-link" href="#"><i class="bi bi-shop"></i><br> Cửa hàng</a>
             </li>
             <li class="nav-item" style="width: 100px;font-size: 15px;">
-                <a class="nav-link" href="../include/account.php"><i class="bi bi-people"></i> Tài khoản</a>
+                <a class="nav-link" href="../include/account.php"><i class="bi bi-people"></i><br> Tài khoản</a>
             </li>
             <li class="nav-item" style="width: 100px;font-size: 15px;">
-                <a class="nav-link" href="../html/cart.php"><i class="bi bi-cart4"></i> Giỏ hàng</a>
+                <a class="nav-link" href="../html/cart.php"><i class="bi bi-cart4"></i><br> Giỏ hàng</a>
             </li>
         </ul>
     </nav>
